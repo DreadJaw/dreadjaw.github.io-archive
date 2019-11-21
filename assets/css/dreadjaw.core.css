@@ -1,0 +1,32 @@
+:root {
+    --color-light: #dfdfdf;
+    --color-dark: #3b3535;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray: #616161;
+    --color-red: #5c2525;
+    --color-dark-red: #561414;
+}
+
+html, body { height: 100%; width: 100%; }
+
+.font-dark { font-family: 'Metal Mania' !important; }
+
+.bg-gradient { background: linear-gradient(to bottom, var(--color-red), var(--color-dark)); }
+.bg-dark { background-color: var(--color-dark) !important; }
+.bg-black { background-color: var(--color-black) !important; }
+.bg-gray { background-color: var(--color-gray) !important; }
+.bg-red { background-color: var(--color-red) !important; }
+.bg-dragon {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/dreadjaw_full.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.text-primary { color: var(--color-red) !important; }
+.text-light { color: var(--color-light) !important; }
+.text-dark { color: var(--color-dark) !important; }
+.text-link, .text-link:visited { color: var(--color-red) !important; }
+.text-link:hover { color: var(--color-dark-red) !important; }
