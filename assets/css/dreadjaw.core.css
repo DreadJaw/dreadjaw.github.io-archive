@@ -6,6 +6,7 @@
     --color-gray: #616161;
     --color-red: #5c2525;
     --color-dark-red: #561414;
+    --color-crimson: #cc0000;
 }
 
 html, body { height: 100%; width: 100%; }
@@ -30,3 +31,12 @@ html, body { height: 100%; width: 100%; }
 .text-dark { color: var(--color-dark) !important; }
 .text-link, .text-link:visited { color: var(--color-red) !important; }
 .text-link:hover { color: var(--color-dark-red) !important; }
+
+.fad {
+    --fa-color-primary: var(--color-gray);
+    --fa-color-secondary: var(--color-red);
+}
+.fad:hover {
+    --fa-color-primary: var(--color-light);
+    --fa-color-secondary: var(--color-crimson);
+}
