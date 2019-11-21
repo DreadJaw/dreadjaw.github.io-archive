@@ -10,11 +10,15 @@
 <link rel="stylesheet" href="./assets/css/dreadjaw.core.css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/c23fa45d94.js"></script>
 </head>
 <body class="bg-black bg-dragon">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <div class="container">
-            <a class="navbar-brand font-dark" href="#">{{ site.title }}</a>
+            <a class="navbar-brand font-dark" href="#">
+                <i class="{{ site.icon }}"></i>
+                <span> {{ site.title }}</span>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
