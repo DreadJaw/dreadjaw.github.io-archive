@@ -1,3 +1,4 @@
-markdown: kramdown
-title: DreadJaw
-description: Dragon Developer Online
+markdown: 'kramdown'
+title: 'DreadJaw'
+description: 'Dragon Developer Online'
+color: '#640000'
