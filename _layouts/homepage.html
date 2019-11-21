@@ -5,10 +5,28 @@
 <meta charset="UTF-8">
 <meta name="description" content="{{ site.description }}">
 <meta name="theme-color" content="{{ site.color }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/dreadjaw.core.css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<body class="homepage">
+<body class="bg-black bg-dragon">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container">
+            <a class="navbar-brand font-dark" href="#">{{ site.title }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mt-5 font-dark">{{ site.description }}</h1>
+                <p class="lead">{{ content }}</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
