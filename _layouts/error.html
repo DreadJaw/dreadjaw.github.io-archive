@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>{{ site.title }} | {{ page.short_error }}</title>
+<meta charset="UTF-8">
+<meta name="description" content="{{ site.description }}">
+<meta name="theme-color" content="{{ site.color }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/dreadjaw.core.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/c23fa45d94.js"></script>
+</head>
+<body class="bg-black bg-dragon">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <div class="container">
+            <a class="navbar-brand font-dark" href="/">
+                <i class="{{ site.icon }}"></i>
+                <span> {{ site.title }}</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarResponsive" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">
+                            <i class="fad fa-scroll-old" title="Blog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="mt-5 font-dark">{{ page.full_error }}</h1>
+                <p class="lead">{{ page.error_message }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
