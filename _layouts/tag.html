@@ -56,7 +56,7 @@
                         <span>Tags: </span>
                         {% for tag in post.tags %}
                         {% capture tag_name %}{{ tag }}{% endcapture %}
-                        <a class="text-light" href="/tags/{{ tag_name }}">#{{ tag_name }}</a>
+                        <a class="text-light" href="/tag/{{ tag_name }}">#{{ tag_name }}</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <h5 class="card-header font-dark text-light">Tags</h5>
                     <div class="card-body bg-dark">
                         {% for tag in site.tags %}
-                        <a class="text-light" href="/tags/{{ tag[0] }}">#{{ tag[0] }}</a>
+                        <a class="text-light" href="/tag/{{ tag[0] }}">#{{ tag[0] }}</a>
                         {% endfor %}
                     </div>
                 </div>
