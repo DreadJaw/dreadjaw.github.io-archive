@@ -26,7 +26,7 @@
             <div id="navbarResponsive" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/blog">
+                        <a class="nav-link disabled" href="#">
                             <i class="fad fa-scroll-old" title="Blog"></i>
                         </a>
                     </li>
@@ -38,7 +38,7 @@
     <br><br>
 
     <div class="container">
-        <h1 class="mt-8 mb-3">{{ page.title }}</h1>
+        <h1 class="mt-8 mb-3 text-primary font-dark">{{ page.title }}</h1>
         <div class="row">
             <div class="col-lg-8">
                 <img class="img-fluid rounded" src="{{ page.image }}" alt="{{ page.title }}">
@@ -57,6 +57,7 @@
                 <hr>
                 <p class="lead">{{ content }}</p>
                 <div class="tags">
+                    <span class="text-muted">Tags: </span>
                     {% for tag in page.tags %}
                     {% capture tag_name %}{{ tag }}{% endcapture %}
                     <a class="text-light" href="/tags/{{ tag_name }}">#{{ tag_name }}</a>
@@ -67,7 +68,7 @@
                 <div class="card mb-4 bg-dark text-light">
                     <h5 class="card-header bg-gray font-dark">Related Posts</h5>
                     <div class="card-body">
-                        <ul>
+                        <ul style="list-style-type: none;">
                             {% for post in site.posts limit:10 %}
                             <li>
                                 <a href="{{ post.url }}">{{ post.title }}</a>
