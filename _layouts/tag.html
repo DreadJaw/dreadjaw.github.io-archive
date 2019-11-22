@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>{{ site.title }} | #{{ page.tag }}</title>
+<meta charset="UTF-8">
+<meta name="description" content="{{ page.description }}">
+<meta name="theme-color" content="{{ site.color }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/dreadjaw.core.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/c23fa45d94.js"></script>
+</head>
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand font-dark" href="/">
+                <i class="{{ site.icon }}"></i>
+                <span> {{ site.title }}</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarResponsive" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <i class="fad fa-scroll-old" title="Blog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="font-dark my-4 text-light">#{{ page.tag }}</h1>
+                {% for post in site.tags[page.tag] %}
+                <div class="card mb-4 bg-gray text-light">
+                    <img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}">
+                    <div class="card-body">
+                        <h2><span class="font-dark text-primary">{{ post.title }}</span></h2>
+                        <p>Posted: {{ post.date | date_to_string }} </p>
+                        <div class="card-text">
+                            {{ post.excerpt }}
+                        </div>
+                        <a href="{{ post.url }}" class="btn btn-primary">Read More &rarr;</a>
+                    </div>
+                    <div class="card-footer text-muted bg-dark">
+                        <span>Tags: </span>
+                        {% for tag in post.tags %}
+                        {% capture tag_name %}{{ tag }}{% endcapture %}
+                        <a class="text-light" href="/tags/{{ tag_name }}">#{{ tag_name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-md-4">
+                <div class="card my-4 bg-gray">
+                    <h5 class="card-header font-dark text-light">Tags</h5>
+                    <div class="card-body bg-dark">
+                        {% for tag in site.tags %}
+                        <a class="text-light" href="/tags/{{ tag[0] }}">#{{ tag[0] }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
