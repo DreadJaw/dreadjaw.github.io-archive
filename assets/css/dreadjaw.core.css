@@ -32,6 +32,16 @@ html, body { height: 100%; width: 100%; }
 .text-link, .text-link:visited { color: var(--color-red) !important; }
 .text-link:hover { color: var(--color-dark-red) !important; }
 
+.btn-primary { 
+    background-color: var(--color-red) !important; 
+    color: var(--color-light) !important; 
+    border-color: var(--color-red) !important;
+}
+.btn-primary:hover { 
+    background-color: var(--color-dark-red) !important; 
+    border-color: var(--color-red) !important;
+}
+
 .fad {
     --fa-color-primary: var(--color-gray);
     --fa-color-secondary: var(--color-red);
