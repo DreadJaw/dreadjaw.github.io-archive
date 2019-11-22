@@ -11,7 +11,10 @@
 
 html, body { height: 100%; width: 100%; }
 
-.padded-body { padding-top: 56px; }
+.padded-body { padding-top: ;}
+
+.card a, p a { color: var(--color-crimson) !important; }
+.card a:hover, p a:hover { color: var(--color-dark-red) !important; }
 
 .font-dark { font-family: 'Metal Mania' !important; }
 
