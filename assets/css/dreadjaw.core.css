@@ -11,6 +11,8 @@
 
 html, body { height: 100%; width: 100%; }
 
+.padded-body { padding-top: 56px; }
+
 .font-dark { font-family: 'Metal Mania' !important; }
 
 .bg-gradient { background: linear-gradient(to bottom, var(--color-red), var(--color-dark)); }
