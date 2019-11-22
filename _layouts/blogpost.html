@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>{{ site.title }} | {{ page.title }}</title>
+<meta charset="UTF-8">
+<meta name="description" content="{{ page.description }}">
+<meta name="theme-color" content="{{ site.color }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/dreadjaw.core.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/c23fa45d94.js"></script>
+</head>
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand font-dark" href="/">
+                <i class="{{ site.icon }}"></i>
+                <span> {{ site.title }}</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarResponsive" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">
+                            <i class="fad fa-scroll-old" title="Blog"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="container">
+        <h1 class="mt-8 mb-3">{{ page.title }}</h1>
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="img-fluid rounded" src="{{ page.image }}" alt="{{ page.title }}">
+                <hr>
+                <p>
+                    Posted: 
+                    {% assign day = page.date | date: "%-d"  %}
+                        {% case day %}
+                            {% when '1' or '21' or '31' %}{{ day }}st
+                            {% when '2' or '22' %}{{ day }}nd
+                            {% when '3' or '23' %}{{ day }}rd
+                            {% else %}{{ day }}th
+                        {% endcase %}
+                    {{ page.date | date: "of %B, %Y" }}
+                </p>
+                <hr>
+                <p class="lead">{{ content }}</p>
+                <div class="tags">
+                    {% for tag in page.tags %}
+                    {% capture tag_name %}{{ tag }}{% endcapture %}
+                    <a class="text-light" href="/tags/{{ tag_name }}">#{{ tag_name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 bg-dark text-light">
+                    <h5 class="card-header bg-gray font-dark">Related Posts</h5>
+                    <div class="card-body">
+                        <ul>
+                            {% for post in site.posts limit:10 %}
+                            <li>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <span> - </span>
+                                <span>{{ post.date | date_to_string }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="card my-4 bg-gray">
+                    <h5 class="card-header font-dark text-light">Tags</h5>
+                    <div class="card-body bg-dark">
+                        {% for tag in site.tags %}
+                        <a class="text-light" href="/tags/{{ tag[0] }}">#{{ tag[0] }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
