@@ -10,6 +10,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [1 2 unmod ben](https://www.youtube.com/watch?v=jzUFMoJdWws)
 - [1 2 Vengabus](https://www.youtube.com/watch?v=ZEt7KMekpms)
 - [4 Minute long Spongebob Walk Cycle](https://www.youtube.com/watch?v=njX1bypJeY4)
+- [ASSGORE (Fingerfückung)](https://www.youtube.com/watch?v=1P4EP5TI574)
 - [Biggie Smalls feat. Thomas the Tank Engine](https://www.youtube.com/watch?v=ETfiUYij5UE)
 - [Bupper Coyote - No Oat Like Oatmeal](https://www.youtube.com/watch?v=F3Hh8KN4zFk)
 - [Carol of the Bups](https://www.youtube.com/watch?v=mdh-Eah63Yg)
