@@ -5,6 +5,7 @@ All songs are clickable YouTube links.
 If you want to contribute a song. Hit me up on Discord.
 
 ### In Alphabetical Order...
+- [1, 2 I Can Fly](https://www.youtube.com/watch?v=lpShjWVOKC8)
 - [1, 2 Oatmeal](https://www.youtube.com/watch?v=0Dpw0VvH4m0)
 - [1, 2 SimpleFlips](https://www.youtube.com/watch?v=ljWt1ejRszk)
 - [1 2 unmod ben](https://www.youtube.com/watch?v=jzUFMoJdWws)
