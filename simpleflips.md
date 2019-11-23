@@ -32,6 +32,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [NOMA - Oat Power](https://www.youtube.com/watch?v=7rydGZ8Ezv4)
 - [Oatmeal Bells](https://www.youtube.com/watch?v=7x_rOOT6UMs)
 - [Oatmeal Come Home](https://www.youtube.com/watch?v=2FrHv32cE9s)
+- [Ram Ranch](https://www.youtube.com/watch?v=3WQeTpnYN2c)
 - [Simpleflips has a sparta remix](https://www.youtube.com/watch?v=jDYTHK2eQ-o)
 - [SimpleFlips' Nightmare (SimpleFlips Remix)](https://www.youtube.com/watch?v=t0McA7Gf268)
 - [Shine sprite for 4 minutes.](https://www.youtube.com/watch?v=3BwwbcO7yJ8)
