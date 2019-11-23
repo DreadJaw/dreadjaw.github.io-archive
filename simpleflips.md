@@ -41,6 +41,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [SPEED OF KIRB](https://www.youtube.com/watch?v=U1l6ca2Q3YU)
 - [SpongeBob SquarePants Production Music - Tomfoolery](https://www.youtube.com/watch?v=IRixzwZl6Z8)
 - [Super Buck Sunshine](https://www.youtube.com/watch?v=tifbKQt51WY)
+- [Super Buck World 2](https://www.youtube.com/watch?v=kJ1Z1CEDSaA)
 - [The Vengabup](https://www.youtube.com/watch?v=wUH0DiLdC0w)
 - [The Vengabus Never Arrives](https://www.youtube.com/watch?v=zmAggvckIME)
 - [The Unofficial Official SimpleFlips Theme](https://www.youtube.com/watch?v=wcoGikN8lJg)
