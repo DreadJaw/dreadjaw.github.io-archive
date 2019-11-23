@@ -42,7 +42,7 @@ From the beginning there was bad vibes coming from working with K because the to
 on was a big target because the niche group I was brought into. I was also immediately promoted
 to the team CTO for my previous experiences. The job was simple but destructive. I had to create
 a full project itself on my own for lack of other developers. The rest of the team handled every
-section of a corporate entity except and field of technology.
+section of a corporate entity except any field of technology.
 
 The environment working with D could be the strangest of them all. The group makes an honest
 effort to come off as a legitimate business and make a very good job doing so even being one of
@@ -55,5 +55,7 @@ environment for any solo developer and if any solo developer out there reads thi
 on something from my experience if you haven't done group work, don't be afraid of collaboration.
 Collaboration is part of being a developer. If you read documentation your collaborating with that
 project all the way to live-sharing your work with others.
+
+Thanks for reading.
 
 *Artwork by [Imagination Drawings](https://is.gd/hWnau6)*
