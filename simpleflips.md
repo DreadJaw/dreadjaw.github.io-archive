@@ -29,6 +29,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [MAAAAMAAAA UWU](https://www.youtube.com/watch?v=h4aYzKb0Cx8)
 - [Mambo No. 1,2](https://www.youtube.com/watch?v=wTr0P1Grc2g)
 - [Mario Canyon (25 Minutes & Perfect Loop)](https://www.youtube.com/watch?v=wiofMlBsgjY)
+- [NOMA - Brain Power](https://www.youtube.com/watch?v=mj-v6zCnEaw)
 - [NOMA - Oat Power](https://www.youtube.com/watch?v=7rydGZ8Ezv4)
 - [Oatmeal Bells](https://www.youtube.com/watch?v=7x_rOOT6UMs)
 - [Oatmeal Come Home](https://www.youtube.com/watch?v=2FrHv32cE9s)
