@@ -2,7 +2,7 @@
 layout: blogpost
 title: Working With Others
 image: https://pm1.narvii.com/6577/db19bfa90d8b1d86b9b8bb7e9abb10a4c5c14743_hq.jpg
-tags: [personal, tutorial]
+tags: [personal]
 excerpt_separator: <!-- end-excerpt -->
 ---
 One of the hardest things that I have ever had to do was collaborate with others.
