@@ -4,13 +4,6 @@ All songs are clickable YouTube links.
 
 If you want to contribute a song. Hit me up on Discord.
 
-### Legend
-```
-* - This song is not how it's labled or is a strange remix.
-** - Unlabeled Oatmeal Remix
-*** - Unlabled Never Starts Remix
-```
-
 ### In Alphabetical Order...
 - [1, 2 Oatmeal](https://www.youtube.com/watch?v=0Dpw0VvH4m0)
 - [1, 2 SimpleFlips](https://www.youtube.com/watch?v=ljWt1ejRszk)
@@ -20,7 +13,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [Biggie Smalls feat. Thomas the Tank Engine](https://www.youtube.com/watch?v=ETfiUYij5UE)
 - [Bupper Coyote - No Oat Like Oatmeal](https://www.youtube.com/watch?v=F3Hh8KN4zFk)
 - [Carol of the Bups](https://www.youtube.com/watch?v=mdh-Eah63Yg)
-- [Delfino Plaza - Super Mario Sunshine](https://www.youtube.com/watch?v=ds6I5sUBGtw)***
+- [Delfino Plaza - Super Mario Sunshine](https://www.youtube.com/watch?v=ds6I5sUBGtw) (Never Stars Edit)
 - [Die Woodys - Fichtl's Lied](https://www.youtube.com/watch?v=dP9Wp6QVbsk)
 - [DJ Cummerbund - WarMCA](https://www.youtube.com/watch?v=LjDVVLLhr_M)
 - [Elvis Crespo - Suavemente (Video Oficial)](https://www.youtube.com/watch?v=WPiEbYSF9kE)
@@ -46,7 +39,7 @@ If you want to contribute a song. Hit me up on Discord.
 - [The Vengabup](https://www.youtube.com/watch?v=wUH0DiLdC0w)
 - [The Vengabus Never Arrives](https://www.youtube.com/watch?v=zmAggvckIME)
 - [The Unofficial Official SimpleFlips Theme](https://www.youtube.com/watch?v=wcoGikN8lJg)
-- [Three Dog Night - One Is The Loneliest Number](https://www.youtube.com/watch?v=9nr2qJjvoB0)**
+- [Three Dog Night - One Is The Loneliest Number](https://www.youtube.com/watch?v=9nr2qJjvoB0) (Secretly Oatmeal)
 - [Toadhemian Rhapsody](https://www.youtube.com/watch?v=foS1bG8p2K0)
 - [Toto - Africa (Vocals Oatmeal)](https://www.youtube.com/watch?v=_Y-p8LuB6VE)
 - [Vengaboys - We like to Party! (The Vengabus)](https://www.youtube.com/watch?v=6Zbi0XmGtMw)
