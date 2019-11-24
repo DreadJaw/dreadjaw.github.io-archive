@@ -8,20 +8,26 @@ was created to make it even more like C++.
 
 ### Table Of Contents
 - [Setup](#setup)
-- [Definitions](#definitions)
-- [Basic Examples](#examples)
+- [Documentation](#documentation)
 - [Support](#support)
 
 ### Setup
 At this time while the Project is in alpha, the setup and features of DragonScript are invite only.
 
-### Definitions
-DragonScript, much like TypeScript, uses it's own interfaces and definitions. You will find an
-example of some of these below.
-- `String*` - `<string>` - Any string is compatible
-- `Float*` - `<number>` - A float number
-- `Int*` - `<number>` - An integer number
-- `Array*` - `<any[]>` - Any array is applicable
-- `Object*` - `<{[key: string]: any;}>` - A Javascript object
-- `Json*` - `<{[key: string]: any;} | any[]>` - The potential content of a JSON
-- `Any*` - `<any>` - Anything
+### Documentation
+In this section you will see a master file that allows you to see how DragonScript works by using
+all of it's unique features in a single code block
+```drs
+;; This is a comment in DragonScript
+
+;; Import node modules (Specifics are a WIP)
+#include <fs>
+#include <./custom.exports.file>
+
+;; Storing variables
+
+;; A "const" variable
+cvar langName: String* = 'DragonScript';
+;; A "let" variable
+tvar created: Int* = 2019;
+```
