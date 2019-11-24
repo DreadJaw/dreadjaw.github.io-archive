@@ -9,7 +9,7 @@ was created to make it even more like C++.
 ### Table Of Contents
 - [Setup](#setup)
 - [Documentation](#documentation)
-- [Support](#support)
+- [Contact](#contact)
 
 ### Setup
 At this time while the Project is in alpha, the setup and features of DragonScript are invite only.
@@ -57,3 +57,9 @@ namespace BadError extends Error :>
   <:
 <:
 ```
+
+### Contact
+For help or anything. Reach out to me with the links below:
+- [Reddit](https://www.reddit.com/u/DreadJaw)
+- [Github](https://github.com/DreadJaw)
+- [Website](http://dreadjaw.cf)
