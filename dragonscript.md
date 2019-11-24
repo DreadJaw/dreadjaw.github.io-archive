@@ -7,4 +7,7 @@ DragonScript is a lightly modified version of Microsoft's [TypeScript](http://ww
 was created to make it even more like C++.
 
 ### Table Of Contents
+- [Setup](#setup)
+- [Definitions](#definitions)
 - [Basic Examples](#examples)
+- [Support](#support)
