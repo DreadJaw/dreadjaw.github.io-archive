@@ -23,3 +23,5 @@ example of some of these below.
 - `Int*` - `<number>` - An integer number
 - `Array*` - `<any[]>` - Any array is applicable
 - `Object*` - `<{[key: string]: any;}>` - A Javascript object
+- `Json*` - `<{[key: string]: any;} | any[]>` - The potential content of a JSON
+- `Any*` - `<any>` - Anything
