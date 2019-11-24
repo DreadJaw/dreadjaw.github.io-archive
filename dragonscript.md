@@ -38,6 +38,9 @@ tvar myInt: Int* = 69;
 tvar myArray: Array* = ['a','b','c'];
 tvar myObject: Object* = :> name: 'DragonScript', year: 2019 <:;
 tvar myJson: Json* = myArray || myObject;
+tvar myBuffer: Buffer* = Buffer.from(myString);
+tvar myRegExp: RegExp* = new RegExp('(value)', 'gmi');
+tvar myAnything: Any* = myInt || myString || myArray;
 
 ;; Read a JSON file function
 operation readJsonFile(path: Path*): Json* :>
