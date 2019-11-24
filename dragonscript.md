@@ -1,7 +1,7 @@
 ![DragonScript](https://i.imgur.com/3NJoebP.png)
 
 ![LICENSE](https://img.shields.io/badge/license-BSD--3--Clause-blue)
-![VERSION](https://img.shields.io/badge/version-0.1.0-green)
+![VERSION](https://img.shields.io/badge/version-0.1.0--alpha-green)
 ![NODE](https://img.shields.io/badge/node-11.1.0-green)
 ![NPM](https://img.shields.io/badge/npm-6.13.0-green)
 
