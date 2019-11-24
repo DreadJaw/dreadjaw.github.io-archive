@@ -44,4 +44,16 @@ operation readJsonFile(path: Path*): Json* :>
   cvar fileContent: String* = fs::readFileSync(path, :> encoding: 'utf8' <:);
   return JSON::parse(fileContent);
 <:
+
+;; Console Log and Export content
+export cvar dummyJson: Json* = readJsonFile('./dummy.json');
+println(dummyJson);
+
+;; Make an Error "class"
+namespace BadError extends Error :>
+  init(message: String*) :>
+    super(message);
+    this::name = 'BadError';
+  <:
+<:
 ```
