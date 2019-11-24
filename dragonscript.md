@@ -18,7 +18,8 @@ At this time while the Project is in alpha, the setup and features of DragonScri
 ### Definitions
 DragonScript, much like TypeScript, uses it's own interfaces and definitions. You will find an
 example of some of these below.
-- **drs Type - ts Type**
 - `String*` - `<string>` - Any string is compatible
 - `Float*` - `<number>` - A float number
 - `Int*` - `<number>` - An integer number
+- `Array*` - `<any[]>` - Any array is applicable
+- `Object*` - `<{[key: string]: any;}>` - A Javascript object
