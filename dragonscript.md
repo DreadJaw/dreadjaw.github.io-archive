@@ -18,5 +18,7 @@ At this time while the Project is in alpha, the setup and features of DragonScri
 ### Definitions
 DragonScript, much like TypeScript, uses it's own interfaces and definitions. You will find an
 example of some of these below.
-- **drs Type - ts Type - Definition**
-- `String*` `<string>` - This is a new deg
+- **drs Type - ts Type**
+- `String*` - `<string>` - Any string is compatible
+- `Float*` - `<number>` - A float number
+- `Int*` - `<number>` - An integer number
