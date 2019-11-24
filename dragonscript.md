@@ -11,3 +11,12 @@ was created to make it even more like C++.
 - [Definitions](#definitions)
 - [Basic Examples](#examples)
 - [Support](#support)
+
+### Setup
+At this time while the Project is in alpha, the setup and features of DragonScript are invite only.
+
+### Definitions
+DragonScript, much like TypeScript, uses it's own interfaces and definitions. You will find an
+example of some of these below.
+- **drs Type - ts Type - Definition**
+- `String*` `<string>` - This is a new deg
