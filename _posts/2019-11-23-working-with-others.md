@@ -47,8 +47,8 @@ section of a corporate entity except any field of technology.
 The environment working with D could be the strangest of them all. The group makes an honest
 effort to come off as a legitimate business and make a very good job doing so even being one of
 the few independant groups I've worked with over the years. This group is a good group of people
-if not sometimes emotionally influenced. During my time with them I noticed an ignored double
-standard it feels like. On a few things it's more than noticable after even a day on the team.
+if not sometimes emotionally influenced. During my time I noticed almost a feeling exclusivity
+in the things and it's something you feel as a newcomer on that team.
 
 Every environment is different to work with and some are good and some are bad. It's a strange
 environment for any solo developer and if any solo developer out there reads this I want to pass
